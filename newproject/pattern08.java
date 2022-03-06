@@ -13,6 +13,7 @@ public class pattern08 {
 System.out.println("First Way ... Direct Declaration..");
 for(int k=1, i=1;i<=5;i++)
 {
+//   	i%2==0?k=0:k=1;
 	for(int j=1;j<=i;j++,k++)
 	{
 		System.out.print(" "+k);
